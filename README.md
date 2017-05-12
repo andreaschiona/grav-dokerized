@@ -27,3 +27,5 @@ Open your browser at `localhost` and you can see the following page:
 
 ![Admin Page](docs/screenshots/adminpage.png)
 
+
+For use Grav see the [lean documentation](https://learn.getgrav.org/)
