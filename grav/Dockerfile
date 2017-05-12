@@ -26,7 +26,7 @@ RUN bin/grav install
 RUN bin/gpm install admin
 
 # Install thema
-#RUN bin/gpm install antimatter
+RUN bin/gpm install antimatter
 
 RUN chown -R www-data:www-data *
 RUN find . -type f | xargs chmod 664
