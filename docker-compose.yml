@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  app:
+    build: ./grav
+    image: gravapp:latest
+    container_name: gravapp-container
+    ports:
+      - 80:80
+      - 22:22
+    volumes:
+      - ./volumes/:/usr/share/nginx/html/user
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge
