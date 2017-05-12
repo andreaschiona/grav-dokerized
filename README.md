@@ -1,6 +1,6 @@
 ### GRAV Dockerized
 
-A docker image for starting with ![Grav CMS](http://github.com/getgrav/grav).
+A docker image for starting with [Grav CMS](http://github.com/getgrav/grav).
 
 ## Instrunctions
 
