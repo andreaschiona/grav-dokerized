@@ -1,6 +1,7 @@
 # GRAV Dockerized
 
 A docker image for starting with [Grav CMS](http://github.com/getgrav/grav).
+For play with Grav see the [learn documentation](https://learn.getgrav.org/)
 
 ## Quick guide
 
@@ -12,7 +13,12 @@ This image is available on docker hub, then the simplest way to try it with dock
 docker run -d -p 80:80 andreaschiona/grav-dockerized
 ```
 
-Grav will be available on [http://localhost/](http://localhost/)
+Now you have a fresh GRAV CMS with Admin Plugin installation.
+The Grav simple web app will be available in [http://localhost/](http://localhost/).
+
+The first time you have to create the admin user (for Admin plugin)
+
+![Admin Page](docs/screenshots/adminpage.png)
 
 ## Clone and build instructions
 
@@ -36,10 +42,5 @@ And start the container with
 docker-compose up
 ```
 
-Now you have a fresh GRAV CMS with Admin Plugin installation.
-Open your browser at `localhost` and you can see the following page:
+So, Grav will be available in [http://localhost/](http://localhost/).
 
-![Admin Page](docs/screenshots/adminpage.png)
-
-
-For use Grav see the [lean documentation](https://learn.getgrav.org/)
