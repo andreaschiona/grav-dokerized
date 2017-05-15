@@ -8,8 +8,6 @@ services:
     ports:
       - 80:80
       - 22:22
-    volumes:
-      - ./volumes/:/usr/share/nginx/html/user
     networks:
       - appnet
 
